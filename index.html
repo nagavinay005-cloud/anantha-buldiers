@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anantha Builders | Luxury Construction & Real Estate</title>
+  <meta name="description" content="Anantha Builders brings together unmatched expertise to deliver premier luxury real estate landmarks in Bhimavaram and across Andhra Pradesh.">
+  <meta name="keywords" content="Anantha Builders, Luxury Real Estate, Bhimavaram Apartments, Villas, Construction Company, Lakshmi Ganapathi Enterprises">
+  
+  <!-- Favicon & Web App Icons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <style>
+    .hero-clean-banner {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      background-color: #0f172a;
+      padding-top: 80px;
+    }
+    .hero-clean-banner img {
+      width: 100%;
+      min-height: calc(100vh - 80px);
+      max-height: 850px;
+      display: block;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .about-dual-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.5rem;
+    }
+    @media (max-width: 992px) {
+      .about-dual-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .about-card {
+      background: var(--bg-white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+    .about-card:hover {
+      border-color: var(--gold-primary);
+      box-shadow: 0 15px 35px rgba(166, 141, 92, 0.12);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. HEADER -->
+  <header class="site-header" style="background-color: #FFFFFF !important;">
+    <div class="container header-container">
+      <a href="/index.html" class="logo-wrapper">
+        <img src="/assets/images/home/logo/logo.png" alt="Anantha Builders Logo" class="header-logo-img">
+      </a>
+      
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="/index.html" class="nav-link active">Home</a></li>
+          <li><a href="/about.html" class="nav-link">About</a></li>
+          <li><a href="/projects.html" class="nav-link">Projects</a></li>
+          <li><a href="/services.html" class="nav-link">Services</a></li>
+          <li><a href="/gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-cta-btn">
+        <a href="tel:+919348388888" class="btn-luxury">Call Us Now</a>
+      </div>
+      
+      <button class="mobile-toggle" aria-label="Toggle navigation">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. HERO BANNER -->
+  <section class="hero-clean-banner">
+    <img src="/assets/images/home/hero/main.png" alt="Anantha Homes Building & Director Shanmukh Kumar">
+  </section>
+
+  <!-- 3. WELCOME TO ANANTHA BUILDERS -->
+  <section class="section-padding" style="background-color: var(--bg-white);">
+    <div class="container">
+      <div class="about-split">
+        <div class="about-img-frame reveal-scale">
+          <img src="/assets/images/home/gallery/im.jpeg" alt="Ark The Pride Exterior">
+        </div>
+        
+        <div class="about-text-content reveal-fade">
+          <span class="eyebrow">BE THE PROUD OWNER</span>
+          <h2>Welcome to Anantha Builders</h2>
+          <p style="margin-bottom: 1.5rem; font-size: 1.05rem; line-height: 1.7;">
+            Anantha Builders Company has established itself as a trusted name in the construction industry through quality workmanship, innovative design, and an unwavering commitment to customer satisfaction. With over two decades of expertise in residential, commercial, and large-scale infrastructure development, our team has successfully delivered projects that stand as landmarks of excellence. We prioritize safety, sustainability, and timely delivery in every blueprint we execute.
+          </p>
+          <div class="hero-actions" style="margin-top: 2rem;">
+            <a href="/projects.html" class="btn-luxury">Booking Now</a>
+            <a href="tel:+919348388888" class="btn-luxury-outline">Call +91 93483 88888</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 & 5. DUAL 2-COLUMN ABOUT GRID (ANANTHA BUILDERS & LAKSHMI GANAPATHI ENTERPRISES) -->
+  <section class="section-padding" style="background-color: var(--bg-white); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3.5rem; align-items: stretch;">
+
+        <!-- LEFT COLUMN: ABOUT ANANTHA BUILDERS -->
+        <div class="reveal-fade" style="display: flex; flex-direction: column; align-items: center; text-align: center; border-right: 1px solid var(--border-light); padding-right: 2rem;">
+          <span class="eyebrow" style="font-weight: 700; font-size: 0.85rem; letter-spacing: 0.25em;">About Anantha Builders</span>
+          <div style="margin: 1rem 0 1.5rem 0; height: 140px; width: 100%; display: flex; align-items: center; justify-content: center;">
+            <img src="/image/logo2.png" alt="Anantha Builders" style="max-height: 135px; width: auto; object-fit: contain;">
+          </div>
+          <p style="font-size: 1.2rem; line-height: 1.8; color: #111111; font-weight: 400; text-align: center;">
+            Anantha Builders Company has established itself as a trusted name in the construction industry through quality workmanship, innovative design, and an unwavering commitment to customer satisfaction. With over two decades of expertise in residential, commercial, and large-scale infrastructure development, our team has successfully delivered projects that stand as landmarks of excellence. We prioritize safety, sustainability, and timely delivery in every blueprint we execute.
+          </p>
+        </div>
+
+        <!-- RIGHT COLUMN: ABOUT LAKSHMI GANAPATHI ENTERPRISES -->
+        <div class="reveal-fade" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+          <span class="eyebrow" style="font-weight: 700; font-size: 0.85rem; letter-spacing: 0.25em;">About Lakshmi Ganapathi Enterprises</span>
+          <div style="margin: 1rem 0 1.5rem 0; height: 140px; width: 100%; display: flex; align-items: center; justify-content: center;">
+            <img src="/assets/images/about/company/lakshmi.png" alt="Lakshmi Ganapathi Enterprises" style="max-height: 135px; width: auto; object-fit: contain;">
+          </div>
+          <p style="font-size: 1.2rem; line-height: 1.8; color: #111111; font-weight: 400; text-align: center;">
+            Lakshmi Ganapathi Enterprises is a premier provider of high-performance UPVC windows and doors, dedicated to delivering innovative solutions that blend durability with modern aesthetics. By leveraging advanced manufacturing technology and precision engineering, we ensure that every product we install offers superior energy efficiency and sound insulation. Our reputation is built on years of craftsmanship and a deep-seated commitment to transforming spaces into secure, comfortable, and elegant environments.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. EXACT REFERENCE IMAGE SERVICES HIGHLIGHTS BAR (ENLARGED ICONS) -->
+  <section style="background-color: var(--bg-white); padding: 5rem 0; border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light); color: var(--text-dark);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 3rem; align-items: center;">
+        
+        <!-- 1. Apartments Construction Services -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <div style="flex-shrink: 0;">
+            <svg width="64" height="64" viewBox="0 0 36 36" fill="none" stroke="#A68D5C" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="14" width="9" height="18" rx="0.5" />
+              <rect x="6.5" y="17.5" width="2" height="2" />
+              <rect x="6.5" y="21.5" width="2" height="2" />
+              <rect x="6.5" y="25.5" width="2" height="2" />
+              <rect x="14" y="6" width="16" height="26" rx="0.5" />
+              <rect x="17.5" y="10" width="2" height="2" />
+              <rect x="23.5" y="10" width="2" height="2" />
+              <rect x="17.5" y="15" width="2" height="2" />
+              <rect x="23.5" y="15" width="2" height="2" />
+              <rect x="17.5" y="20" width="2" height="2" />
+              <rect x="23.5" y="20" width="2" height="2" />
+              <rect x="17.5" y="25" width="2" height="2" />
+              <rect x="23.5" y="25" width="2" height="2" />
+            </svg>
+          </div>
+          <div style="font-size: 1.1rem; font-weight: 700; line-height: 1.3; color: var(--text-dark); letter-spacing: 0.02em;">
+            <div>Apartments</div>
+            <div>Construction</div>
+            <div>Services</div>
+          </div>
+        </div>
+
+        <!-- 2. Premium Villas Construction -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <div style="flex-shrink: 0;">
+            <svg width="64" height="64" viewBox="0 0 36 36" fill="none" stroke="#A68D5C" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 4 C 8 12, 6 22, 18 32 C 30 22, 28 12, 18 4 Z" />
+              <path d="M18 8 V 28" />
+              <path d="M18 14 C 14 16, 12 18, 10 20" />
+              <path d="M18 20 C 15 22, 13 24, 12 25" />
+              <path d="M18 16 C 21 18, 23 20, 25 22" />
+            </svg>
+          </div>
+          <div style="font-size: 1.1rem; font-weight: 700; line-height: 1.3; color: var(--text-dark); letter-spacing: 0.02em;">
+            <div>Premium</div>
+            <div>Villas</div>
+            <div>Construction</div>
+          </div>
+        </div>
+
+        <!-- 3. Expert Layouts & Planning -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <div style="flex-shrink: 0;">
+            <svg width="64" height="64" viewBox="0 0 36 36" fill="none" stroke="#A68D5C" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="18,2 22,12 32,12 24,18 28,28 18,22 8,28 12,18 4,12 14,12" />
+              <polygon points="18,8 22,18 18,28 14,18" />
+            </svg>
+          </div>
+          <div style="font-size: 1.1rem; font-weight: 700; line-height: 1.3; color: var(--text-dark); letter-spacing: 0.02em;">
+            <div>Expert</div>
+            <div>Layouts &</div>
+            <div>Planning</div>
+          </div>
+        </div>
+
+        <!-- 4. Luxury Interior Fit-Outs -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <div style="flex-shrink: 0;">
+            <svg width="64" height="64" viewBox="0 0 36 36" fill="none" stroke="#A68D5C" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 16 L18 6 L30 16 V30 H6 Z" />
+              <rect x="15" y="22" width="6" height="8" />
+              <path d="M10 11 C 9 8, 12 7, 14 9" />
+            </svg>
+          </div>
+          <div style="font-size: 1.1rem; font-weight: 700; line-height: 1.3; color: var(--text-dark); letter-spacing: 0.02em;">
+            <div>Luxury</div>
+            <div>Interior</div>
+            <div>Fit-Outs</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. GALLERY (PREMIUM LUXURY GRID) -->
+  <section class="section-padding" style="background-color: var(--bg-white); border-bottom: 1px solid var(--border-light);">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <div>
+          <h2 style="font-size: 2.75rem; font-weight: 700; margin-top: 0.5rem; color: var(--gold-primary);">Gallery</h2>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+        <div style="overflow: hidden; border-radius: 12px; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 4px 15px rgba(0,0,0,0.05); aspect-ratio: 4/3;">
+          <img src="/assets/images/home/gallery/im.jpeg" alt="Tadepalligudem Apartment Elevation" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1.0)'">
+        </div>
+        <div style="overflow: hidden; border-radius: 12px; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 4px 15px rgba(0,0,0,0.05); aspect-ratio: 4/3;">
+          <img src="/assets/images/home/gallery/003.png" alt="Gated Independent Villa Facade" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1.0)'">
+        </div>
+        <div style="overflow: hidden; border-radius: 12px; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 4px 15px rgba(0,0,0,0.05); aspect-ratio: 4/3;">
+          <img src="/assets/images/home/gallery/7.png" alt="Night Elevation Lighting View" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1.0)'">
+        </div>
+        <div style="overflow: hidden; border-radius: 12px; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 4px 15px rgba(0,0,0,0.05); aspect-ratio: 4/3;">
+          <img src="/assets/images/home/gallery/project1.png" alt="Tadepalligudem Side Elevation" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1.0)'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. OUR CLIENTS (TESTIMONIALS) -->
+  <section class="section-padding" style="background-color: var(--bg-cream);">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto 3rem auto;">
+        <h2>Our Clients</h2>
+        <p style="color: var(--text-muted);">
+          Authentic reviews from homeowners and commercial partners who experienced the Anantha Builders commitment to craftsmanship.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div style="background: var(--bg-white); padding: 2rem; border-left: 3px solid var(--gold-primary); border: 1px solid var(--border-light);">
+          <p style="font-style: italic; font-size: 0.95rem; margin-bottom: 1rem;">
+            "Living in an Anantha Builders project has been an absolute delight. The structural strength and attention to detail in every corner reflect their decades of experience."
+          </p>
+          <strong>K. V. Subba Rao</strong>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">Tadepalligudem Apartment Owner</div>
+        </div>
+
+        <div style="background: var(--bg-white); padding: 2rem; border-left: 3px solid var(--gold-primary); border: 1px solid var(--border-light);">
+          <p style="font-style: italic; font-size: 0.95rem; margin-bottom: 1rem;">
+            "The UPVC windows from Lakshmi Ganapathi Enterprises made a tremendous difference in noise reduction and heat insulation for our villa. Highly recommended!"
+          </p>
+          <strong>M. Rajesh Kumar</strong>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">Villa Homeowner</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/images/home/logo/White logo.png" alt="Anantha Builders Logo">
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.95rem; margin-bottom: 1.5rem;">
+            Anantha Builders is a premier construction firm committed to crafting luxury residential and commercial landmarks with structural excellence in Bhimavaram.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="/services.html">Apartments</a></li>
+            <li><a href="/services.html">Villas</a></li>
+            <li><a href="/services.html">UPVC Windows</a></li>
+            <li><a href="/services.html">Civil Contracts</a></li>
+            <li><a href="/services.html">Interior Fit-Outs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Office</h4>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; margin-bottom: 0.75rem;">
+            ANANTHA BUILDERS, Park Street, Market Yard Back Side, Kodavali Road, Narasagraharam, Bhimavaram.
+          </p>
+          <p style="color: var(--gold-light); font-weight: 500; font-size: 0.9rem; margin-bottom: 0.5rem;">
+            Phone: +91 93483 88888 | +91 91532 34567
+          </p>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+            Email: ananthabuildersbvrm@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Anantha Builders. All Rights Reserved. Designed with Luxury Craftsmanship.</div>
+        <div style="color: var(--gold-light);">Lakshmi Ganapathi Enterprises Partner Firm</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP & JS Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

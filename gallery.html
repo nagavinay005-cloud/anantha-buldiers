@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architectural Gallery | Anantha Builders | Luxury Construction & Real Estate</title>
+  <meta name="description" content="Immerse in the luxury architectural gallery of Anantha Builders featuring high-resolution renders of residential towers, villas, landscapes, and interiors.">
+  
+  <!-- Favicon & Web App Icons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <style>
+    .gallery-filter-bar {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 3.5rem;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      padding: 0.75rem 1.5rem;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dark);
+      background: var(--bg-white);
+      border: 1px solid var(--border-light);
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--gold-primary);
+      color: var(--bg-white);
+      border-color: var(--gold-primary);
+    }
+    .gallery-tag-pill {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      background: rgba(18, 18, 18, 0.85);
+      color: var(--gold-light);
+      padding: 0.35rem 0.85rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border: 1px solid var(--border-gold);
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header" style="background-color: #FFFFFF !important;">
+    <div class="container header-container">
+      <a href="/index.html" class="logo-wrapper">
+        <img src="/assets/images/home/logo/logo.png" alt="Anantha Builders Logo" class="header-logo-img">
+      </a>
+      
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li><a href="/about.html" class="nav-link">About</a></li>
+          <li><a href="/projects.html" class="nav-link">Projects</a></li>
+          <li><a href="/services.html" class="nav-link">Services</a></li>
+          <li><a href="/gallery.html" class="nav-link active">Gallery</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-cta-btn">
+        <a href="tel:+919348388888" class="btn-luxury">Call Us Now</a>
+      </div>
+      
+      <button class="mobile-toggle" aria-label="Toggle navigation">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="section-padding" style="background-color: var(--bg-cream); padding-top: 10rem;">
+    <div class="container">
+      <div class="reveal-fade" style="max-width: 800px;">
+        <h1 style="color: var(--text-dark); margin-bottom: 1.5rem;">Architectural Showcase & On-Site Gallery</h1>
+        <p style="color: var(--text-grey); font-size: 1.2rem; line-height: 1.7;">
+          Explore our complete collection of 3D architectural renders, luxury villa elevations, interior fit-outs, and active construction site progress photos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MASONRY GALLERY SECTION -->
+  <section class="section-padding" style="background-color: var(--bg-white);">
+    <div class="container">
+      <!-- Category Filter Tabs -->
+      <div class="gallery-filter-bar reveal-fade">
+        <button class="filter-btn active" data-filter="all">All Assets</button>
+        <button class="filter-btn" data-filter="renders">Architectural Renders</button>
+        <button class="filter-btn" data-filter="villas">Villas</button>
+        <button class="filter-btn" data-filter="site">On-Site Progress</button>
+        <button class="filter-btn" data-filter="interiors">Interiors & Landscapes</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Item 1 -->
+        <div class="gallery-item reveal-fade" data-category="renders">
+          <img src="/assets/images/gallery/hero/project1.png" alt="Tadepalligudem Apartment Elevation" loading="lazy">
+          <span class="gallery-tag-pill">Apartment Exterior</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item reveal-fade" data-category="renders">
+          <img src="/assets/images/gallery/completed/project1.png" alt="Tadepalligudem Side View" loading="lazy">
+          <span class="gallery-tag-pill">RERA Project</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item reveal-fade" data-category="renders">
+          <img src="/assets/images/gallery/projects/002.png" alt="Residential Tower Render" loading="lazy">
+          <span class="gallery-tag-pill">3D Render</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item reveal-fade" data-category="villas">
+          <img src="/assets/images/gallery/projects/003.png" alt="Villa Architectural Render" loading="lazy">
+          <span class="gallery-tag-pill">Villa Elevation</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-item reveal-fade" data-category="renders">
+          <img src="/assets/images/gallery/projects/Scene 10.png" alt="Modern Building Facade" loading="lazy">
+          <span class="gallery-tag-pill">Facade Scene</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-item reveal-fade" data-category="renders">
+          <img src="/assets/images/gallery/projects/Scene 2_a.png" alt="Architectural Scene" loading="lazy">
+          <span class="gallery-tag-pill">Architectural Scene</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="gallery-item reveal-fade" data-category="interiors">
+          <img src="/assets/images/gallery/projects/Scene 4.png" alt="Landscape Master Plan" loading="lazy">
+          <span class="gallery-tag-pill">Landscape & Garden</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="gallery-item reveal-fade" data-category="renders">
+          <img src="/assets/images/gallery/projects/Scene 3.png" alt="Site Planning Draft" loading="lazy">
+          <span class="gallery-tag-pill">Site Planning</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="gallery-item reveal-fade" data-category="renders">
+          <img src="/assets/images/gallery/projects/Scene 7.png" alt="Night View Elevation" loading="lazy">
+          <span class="gallery-tag-pill">Lighting Elevation</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 10 -->
+        <div class="gallery-item reveal-fade" data-category="interiors">
+          <img src="/assets/images/gallery/projects/Scene 8.png" alt="Luxury Living Room Interior" loading="lazy">
+          <span class="gallery-tag-pill">Interior Fit-Out</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 11 -->
+        <div class="gallery-item reveal-fade" data-category="villas">
+          <img src="/assets/images/gallery/completed/im.jpeg" alt="Independent Villa Completed" loading="lazy">
+          <span class="gallery-tag-pill">Completed Villa</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 12 -->
+        <div class="gallery-item reveal-fade" data-category="site">
+          <img src="/assets/images/gallery/construction/WhatsApp Image 2026-06-12 at 6.41.57 PM.jpeg" alt="On-Site Progress 1" loading="lazy">
+          <span class="gallery-tag-pill">Site Progress</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 13 -->
+        <div class="gallery-item reveal-fade" data-category="site">
+          <img src="/assets/images/gallery/construction/WhatsApp Image 2026-06-12 at 6.41.58 PM.jpeg" alt="On-Site Progress 2" loading="lazy">
+          <span class="gallery-tag-pill">Site Progress</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+
+        <!-- Item 14 -->
+        <div class="gallery-item reveal-fade" data-category="site">
+          <img src="/assets/images/gallery/construction/WhatsApp Image 2026-06-12 at 6.45.31 PM.jpeg" alt="On-Site Progress 3" loading="lazy">
+          <span class="gallery-tag-pill">Site Progress</span>
+          <div class="gallery-overlay"><div class="gallery-icon">+</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA BANNER -->
+  <section class="contact-cta-banner">
+    <div class="container">
+      <div class="contact-cta-content reveal-fade">
+        <div>
+          <span class="eyebrow" style="color: var(--gold-light);">Personalized Presentation</span>
+          <h2 class="contact-cta-title">Build Your Dream Residence With Us</h2>
+          <p style="color: rgba(255,255,255,0.7); max-width: 600px;">
+            Consult with our engineering team and Chairman Shanmukh Kumar today.
+          </p>
+        </div>
+        <a href="/contact.html" class="btn-luxury">Schedule Site Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox-modal">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-content">
+      <img src="" alt="Enlarged View">
+    </div>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/images/home/logo/White logo.png" alt="Anantha Builders Logo">
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.95rem; margin-bottom: 1.5rem;">
+            Anantha Builders is a premier construction firm committed to crafting luxury residential and commercial landmarks with structural excellence in Bhimavaram.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="/services.html">Apartments</a></li>
+            <li><a href="/services.html">Villas</a></li>
+            <li><a href="/services.html">UPVC Windows</a></li>
+            <li><a href="/services.html">Civil Contracts</a></li>
+            <li><a href="/services.html">Interior Fit-Outs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Office</h4>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; margin-bottom: 0.75rem;">
+            ANANTHA BUILDERS, Park Street, Market Yard Back Side, Kodavali Road, Narasagraharam, Bhimavaram.
+          </p>
+          <p style="color: var(--gold-light); font-weight: 500; font-size: 0.9rem; margin-bottom: 0.5rem;">
+            Phone: +91 93483 88888 | +91 91532 34567
+          </p>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+            Email: ananthabuildersbvrm@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Anantha Builders. All Rights Reserved. Designed with Luxury Craftsmanship.</div>
+        <div style="color: var(--gold-light);">Lakshmi Ganapathi Enterprises Partner Firm</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP & JS Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
